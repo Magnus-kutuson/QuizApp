@@ -13,10 +13,10 @@ export class HomeComponent {
   @Output() categorySelected = new EventEmitter<string>();
 
   readonly categories = [
-    { img: '/assets/images/icon-html.svg', title: 'HTML' },
-    { img: '/assets/images/icon-css.svg', title: 'CSS' },
-    { img: '/assets/images/icon-js.svg', title: 'JavaScript' },
-    { img: '/assets/images/icon-accessibility.svg', title: 'Accessibility' },
+    { img: '/icon-html.svg', title: 'HTML' },
+    { img: '/icon-css.svg', title: 'CSS' },
+    { img: '/icon-js.svg', title: 'JavaScript' },
+    { img: '/icon-accessibility.svg', title: 'Accessibility' },
   ];
 
   onCategorySelect(categoryTitle: string): void {
